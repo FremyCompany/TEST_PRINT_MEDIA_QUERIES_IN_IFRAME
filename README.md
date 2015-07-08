@@ -6,3 +6,6 @@ Also, it reports a faulty size for the page.
 
 ## Load this testcase in your browser:
 https://fremycompany.github.io/TEST_PRINT_MEDIA_QUERIES_IN_IFRAME/
+
+## Open the chrome issue and star it:
+https://code.google.com/p/chromium/issues/detail?id=508018
