@@ -1,0 +1,17 @@
+<style>
+	html { background-color: orange; }
+	body::before { content: 'orange for not-printing' }
+	@media print and (orientation: portrait) {
+		body::before { content: 'green for portrait' }
+	}
+	@media print and (orientation: landscape) {
+		body::before { content: 'red for landscape' }
+	}
+	@media print and (max-width: 22cm) {
+		html { background-color: green; }
+	}
+	@media print and (min-width: 22cm) {
+		html { background-color: red; }
+	}
+	
+</style>
