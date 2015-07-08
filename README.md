@@ -1,4 +1,4 @@
-# TEST_PRINT_MEDIA_QUERIES_IN_IFRAME
+# Test media queries in iframe
 
 In Chome, media queries do not work the document is printed from an iframe. 
 
